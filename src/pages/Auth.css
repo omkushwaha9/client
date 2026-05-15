@@ -1,0 +1,130 @@
+/* Shared Auth Styles */
+.auth-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.login-bg {
+  background: linear-gradient(135deg, #5c6bc0 0%, #7e57c2 50%, #ab47bc 100%);
+}
+
+.register-bg {
+  background: linear-gradient(135deg, #43a047 0%, #26a69a 50%, #1e88e5 100%);
+}
+
+.auth-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 40px 40px;
+  width: 100%;
+  max-width: 440px;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.18);
+}
+
+.auth-title {
+  text-align: center;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin: 0 0 28px;
+}
+
+.auth-error {
+  background-color: #ffebee;
+  color: #c62828;
+  border: 1px solid #ef9a9a;
+  border-radius: 6px;
+  padding: 10px 14px;
+  margin-bottom: 16px;
+  font-size: 0.875rem;
+}
+
+.form-group {
+  margin-bottom: 18px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #3949ab;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 11px 14px;
+  border: 1.5px solid #e0e0e0;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  color: #333;
+  outline: none;
+  transition: border-color 0.2s;
+  background-color: #fafafa;
+  box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #5c6bc0;
+  background-color: #fff;
+}
+
+.form-group input::placeholder {
+  color: #bdbdbd;
+}
+
+.auth-btn {
+  width: 100%;
+  padding: 13px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: opacity 0.2s, transform 0.1s;
+}
+
+.auth-btn:hover {
+  opacity: 0.9;
+}
+
+.auth-btn:active {
+  transform: scale(0.99);
+}
+
+.auth-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.login-btn {
+  background-color: #3b5bdb;
+}
+
+.register-btn {
+  background-color: #2e7d32;
+}
+
+.auth-link {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.875rem;
+  color: #757575;
+}
+
+.auth-link a {
+  color: #3b5bdb;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.auth-link a:hover {
+  text-decoration: underline;
+}

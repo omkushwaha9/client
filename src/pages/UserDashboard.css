@@ -1,0 +1,54 @@
+.user-welcome-card {
+  margin-bottom: 20px;
+  border-left: 4px solid #1565c0;
+}
+
+.user-welcome-title {
+  margin: 0 0 8px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #212121;
+}
+
+.user-welcome-sub {
+  margin: 0;
+  color: #757575;
+  font-size: 0.9rem;
+}
+
+.user-task-card {
+  margin-bottom: 20px;
+  background: linear-gradient(135deg, #1565c0 0%, #1976d2 100%);
+}
+
+.user-task-card .card-heading {
+  color: #ffffff;
+}
+
+.task-stats {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.task-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.task-stat-num {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.task-stat-label {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.task-stat-num.completed { color: #a5d6a7; }
+.task-stat-num.pending { color: #ffcc80; }
+.task-stat-num.total { color: #ffffff; }
