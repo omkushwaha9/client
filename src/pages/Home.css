@@ -11,8 +11,8 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 32px;
-  height: 56px;
-  background-color: #1565c0;
+  height: 66px;
+  background-color: #2663EB;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   flex-shrink: 0;
 }
@@ -135,7 +135,7 @@
   flex-shrink: 0;
 }
 
-/* CTA buttons */
+/* buttons */
 .home-cta-buttons {
   display: flex;
   gap: 16px;
